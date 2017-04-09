@@ -1,8 +1,9 @@
-
+input  
 ```
 srun -N 1 -n 1 -c 24 python crash_mock.py --first 1 --last 2
 ```
 
+output  
 ```
 DEBUG:templates.py:1246:make_star_templates: Simulating STAR template 325/635 in chunk 0/1
 DEBUG:templates.py:1246:make_star_templates: Simulating STAR template 290/697 in chunk 0/1
